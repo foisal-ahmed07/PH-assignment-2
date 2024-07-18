@@ -238,15 +238,14 @@ margin-left: 20px;
 
 .section2-img img{
     width: 366px;
-height: 312px;
-border-radius: 18px;
-margin: 30px;
+    height: 312px;
+    border-radius: 18px;
+    margin: 30px;
 }
 
 .section2-container{
     margin-top: 100px;
-   margin-left: 80px;
-   
+    margin-left: 80px;  
     width: 1060px;
     height: 371px;
     display: flex;
@@ -504,40 +503,134 @@ height: 249px;
 }
 
 
-
-
-
-
-
-
-
-
-
 /* mobile responsive style atart here  */
 
 @media screen and (max-width: 576px) {
-    header{
-        width: 100%;
-    }
     .nav-option{
         display: none;
     }
-    .fitness-container{
-        flex-direction: column;
+    header{
         height: auto;
     }
-    .fitness-content{
-        width: 40%;
+    .fitness-container, .habit-img, .section2-container, .bmi-item{
+        flex-direction: column;
     }
     .fitness-content h1{
         font-size: 2rem;
-        
+        width: 50%;
     }
     .fitness-content p{
-        font-size: 0.87rem;
+        width: 70%;
+    }
+    .fitness-content{
+        margin-top: 30px;
+        width: auto;
     }
     .header-btn{
-        display: flex;
-        padding: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
     }
+    .header-btn .dnld-btn{
+    width: 50%;
+    height: auto;
+    padding: 0;
+    }
+    .fitness-img{
+        width: auto;
+        
+    }
+    .fitness-img h2{
+        font-size: 2rem;
+    }
+    .fitness-img p{
+        text-align: left;
+    }
+    .free-video{
+    left: 200px;
+    top: 50px;
+    padding-left: 10px;
+    }
+    .Video-tutorial{
+    left: 20px;
+    top: 250px;
+    padding-left: 10px;
+
+    }
+    .main-content h2{
+        padding-top: 0;
+        font-size: 2rem;
+
+    }
+    .pratice-image{
+        width: auto;
+    }
+    .pratice-image img{
+        margin-left: 25%;
+    }
+    .section2-container{
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        gap: 20px;
+    
+    }
+    
+    .section2-content h2{
+        margin-left: 0;
+        padding: 10px;
+    }
+    .section2-content p{
+        margin-left: 0;
+       
+    }
+    .section2-content #run-btn{
+        margin-left: 0;
+        width: 90%;
+        
+    }
+    .section2-img img{
+        width: 287px;
+        height: 170px;
+    }
+    .bmi-container{
+        width: auto;
+        height: auto;
+    }
+    .bmi-item, .content{
+        height: auto;
+        width: auto;
+    }
+    .bmi-h3{
+        padding-top: 0;
+        font-size: 1.5rem;
+    }
+    .calculator-title{
+    width: 354px;
+    height: auto;
+    margin-top: 30px;
+    }
+    .bmi-container{
+        margin-bottom: 30px;
+    }
+.bmi-calculator{
+    width: 354px;
+    height: auto;
+}
+   
+    .my-bmi-calculator{
+        width: 50%;
+        height: auto;
+        
+    }
+    .my-bmi-calculator input{
+        margin: 0 auto;
+    }
+    
+    .factor select{
+        margin-top: 10px;
+    }
+    
+    
 }
