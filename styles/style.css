@@ -512,7 +512,7 @@ height: 249px;
     header{
         height: auto;
     }
-    .fitness-container, .habit-img, .section2-container, .bmi-item{
+    .fitness-container, .habit-img, .section2-container, .bmi-item, .footer-content{
         flex-direction: column;
     }
     .fitness-content h1{
@@ -602,6 +602,7 @@ height: 249px;
         height: auto;
         width: auto;
     }
+    
     .bmi-h3{
         padding-top: 0;
         font-size: 1.5rem;
@@ -610,27 +611,76 @@ height: 249px;
     width: 354px;
     height: auto;
     margin-top: 30px;
+    margin-left: 30px;
+    
     }
     .bmi-container{
         margin-bottom: 30px;
+        
     }
-.bmi-calculator{
-    width: 354px;
-    height: auto;
-}
+    .bmi-container p, h2{
+        text-align: start;
+    }
+    .bmi-calculator{
+        width: auto;
+        height: auto;
+    
+    }
    
     .my-bmi-calculator{
         width: 50%;
-        height: auto;
+        height: auto; 
+        margin-left: 30px;    
         
     }
+    .bmi-calculator button{
+        margin-bottom: 20px;
+    }
+    
     .my-bmi-calculator input{
         margin: 0 auto;
     }
     
     .factor select{
         margin-top: 10px;
+        margin-left:30px;
+        width: 80%;
+        height: auto;
+        
     }
-    
+    .my-bmi-calculator input, select{
+        padding: 20px;
+        height: 10px;
+        width: 170px;
+    }
+    .team-image{
+        height: auto;
+        width: auto;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+    }
+    .footer-container{
+        height: auto;
+        width: auto;
+
+    }
+    .footer-content{
+        align-items: normal;
+
+    }
+    .footer-title{
+        height: auto;
+        width: auto;
+    }
+    .footer-help{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .copy-right p{
+        margin-bottom: 20px;
+    }
     
 }
