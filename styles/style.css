@@ -615,10 +615,13 @@ height: 249px;
         gap: 20px;
     
     }
+    .section2-content{
+        padding: 30px 20px;
+    }
     
     .section2-content h2{
         margin-left: 0;
-        padding: 10px;
+        
     }
     .section2-content p{
         margin-left: 0;
@@ -643,7 +646,7 @@ height: 249px;
     }
     
     .bmi-h3{
-        padding-top: 0;
+        padding-top: 50px;
         font-size: 1.5rem;
     }
     .calculator-title{
