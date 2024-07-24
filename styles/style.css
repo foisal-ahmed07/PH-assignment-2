@@ -434,6 +434,7 @@ background: rgba(0, 0, 0, 0.2),url(image);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
 }
 .exprience-content h2{
     text-align: left;
@@ -444,6 +445,7 @@ background: rgba(0, 0, 0, 0.2),url(image);
 .exprience-content{
     width: 500px;
     height: auto;
+   
     
 }
 .exprience-img img{
@@ -707,6 +709,7 @@ height: 249px;
     .exprience-content{
         width: 400px;
         height: auto;
+        margin: 0 auto;
         
     }
     .exprience-content h2{
@@ -720,13 +723,14 @@ height: 249px;
     }
     .exprience-img img{
         
-        width: 340px;
+        width: 300px;
         height: auto;
     }
    
     .footer-container{
         height: auto;
         width: auto;
+        
 
     }
     .footer-content{
