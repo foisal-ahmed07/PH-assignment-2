@@ -452,6 +452,7 @@ background: rgba(0, 0, 0, 0.2),url(image);
     margin-top: 100px;
     width: 500px;
     height: 300px;
+    border-radius: 10px;
 }
 
 /* footer section style here */
@@ -723,7 +724,7 @@ height: 249px;
     }
     .exprience-img img{
         
-        width: 300px;
+        width: auto;
         height: auto;
     }
    
