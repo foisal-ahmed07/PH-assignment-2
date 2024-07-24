@@ -357,7 +357,7 @@ height: 168px;
     align-items: center;
     gap: 10px;
     height: 168px;
-    /* margin-top: 50px; */
+   
     margin-left: 100px;
   
 height: 48px;
@@ -509,12 +509,23 @@ height: 249px;
     .nav-option{
         display: none;
     }
+    header{
+        height: auto;
+    }
+
     header main footer{
         height: auto;
         width: 393px;
     }
+    .ham-burger{
+        display: block;
+        color: white;
+        font-size: 26px;
+        margin-top: 60px;
+    }
     .fitness-container, .habit-img, .section2-container, .bmi-item, .footer-content{
         flex-direction: column;
+       
     }
     .fitness-content h1{
         font-size: 2rem;
@@ -540,6 +551,7 @@ height: 249px;
     }
     .fitness-img{
         width: 353px;
+        
         
     }
     .fitness-img h2{
