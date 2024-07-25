@@ -137,6 +137,9 @@ padding: 17px 24px;
 color: white;
 }
 .Video-tutorial{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
     width: 206px;
     height: 96px;
     position: absolute;
@@ -147,7 +150,7 @@ color: white;
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    padding: 10px 24px;
+    padding: 20px ;
     color: white;
 
 }
@@ -159,6 +162,17 @@ color: white;
     font-size: 2.52rem;
     font-weight: 900;
     
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    
+    
+}
+.circle i{
+    display: none;
 }
 
 
@@ -547,6 +561,11 @@ height: 249px;
         font-size: 26px;
         margin-top: 60px;
     }
+    .circle i{
+        display: block;
+        text-align: center;
+        margin-top: 12px;
+    }
     .fitness-container, .habit-img, .section2-container, .bmi-item, .footer-content, .exprience-container{
         flex-direction: column;
        
@@ -677,7 +696,7 @@ height: 249px;
         width: 50%;
         height: auto; 
         margin-left: 30px;    
-        
+       
     }
     .bmi-calculator button{
         margin-bottom: 20px;
@@ -703,8 +722,8 @@ height: 249px;
         height: auto;
         width: 353px;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 20px;
-       
+        /* margin-left: 20px; */
+       margin: auto;
     }
     .team-image img{
         width: 313px;
