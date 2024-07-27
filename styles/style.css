@@ -38,20 +38,20 @@ height: 54px;
 } 
 .primary-p{
     font-size: 0.87rem;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.3px;
-text-align: center;
-color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
 
 }
 .primary-h5{
     font-size: 1.25rem;
-font-weight: 600;
-color: white;
-text-align: center;
-margin-top: 25px;
-margin-bottom: 5px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
 
 
@@ -117,24 +117,24 @@ header{
     align-items: centere;
 }
 .fitness-img{
-   width:29.1667%;
-height: 580px;
-margin-right: 50px;
-position: relative;
-margin-top: 30px;
+    width:29.1667%;
+    height: 580px;
+    margin-right: 50px;
+    position: relative;
+    margin-top: 30px;
 }
 .free-video{
     position: absolute;
     top: 200px;
     right: 0px;
     box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
 
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-padding: 17px 24px;
-color: white;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 17px 24px;
+    color: white;
 }
 .Video-tutorial{
     display: flex; 
@@ -267,25 +267,16 @@ margin-left: 20px;
     gap: 165px;
     align-items: center;
     border-radius: 18px;
-
-background: rgb(34, 34, 34);
+    background: rgb(34, 34, 34);
 }
-
 .bmi-container{
-    margin: 0 auto;
-    width: 671px;
-    margin-bottom:90px ;
+    margin-bottom: 50px;
+    margin-top: 50px;
+      
+}
 
 
-}
-.bmi-container h2{
-    text-align: left;
-}
-.bmi-container p{
-    text-align: left;
-}
 .bmi-content{
-    width: 100%;
     background: rgb(34, 34, 34);
     
 }
@@ -295,8 +286,7 @@ background: rgb(34, 34, 34);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  
+    align-items: center; 
 }
 
 
@@ -304,9 +294,9 @@ background: rgb(34, 34, 34);
     color: white;
     
     font-size: 1.75rem;
-font-weight: 900;
-padding-top: 70px;
-margin-bottom: 50px;
+    font-weight: 900;
+    padding-top: 70px;
+    margin-bottom: 50px;
 
 }
 
@@ -321,21 +311,21 @@ margin-bottom: 50px;
 .bmi-table table{
     border-collapse: collapse;
     width: 310px;
-height: 216px;
+    height: 216px;
     
     
 }
 .bmi-table th{
     font-size: 1rem;
-font-weight: 500;
-text-align: left;
+    font-weight: 500;
+    text-align: left;
 
 }
 
 .bmi-table td{
     font-size: 0.87rem;
-font-weight: 400;
-color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
 }
 .calculator-title{
     display: flex;
@@ -360,7 +350,7 @@ color: rgba(255, 255, 255, 0.5);
 }
 .content{
     width: 577px;
-height: 168px;
+    height: 168px;
 }
 
 .my-bmi-calculator{
@@ -406,7 +396,6 @@ margin-left: 100px;
 
 /* section 5 style here */
 .team-image{
-    margin-top: 60px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     height: 604px;
@@ -415,16 +404,15 @@ margin-left: 100px;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
-  margin-left: 50px;
+    margin:60px auto;
 
 }
 
 .team-image img{
     width: 326.67px;
-height: 272px;
-border-radius: 18px;
-
-background: rgba(0, 0, 0, 0.2),url(image);
+    height: 272px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
 }
 
 .trainer-image{
@@ -604,6 +592,7 @@ height: 249px;
         text-align: left;
     }
     .free-video{
+    margin-right: 30px;
     left: 200px;
     top: 50px;
     padding-left: 10px;
@@ -615,7 +604,6 @@ height: 249px;
 
     }
     
-
     .main-content h2{
         padding-top: 0;
         font-size: 2rem;
@@ -655,10 +643,7 @@ height: 249px;
         width: 287px;
         height: 170px;
     }
-    .bmi-container{
-        width: auto;
-        height: auto;
-    }
+ 
     .bmi-item, .content{
         height: auto;
         width: auto;
@@ -677,14 +662,16 @@ height: 249px;
     }
     .bmi-container{
         margin-bottom: 30px;
-        width: 353px;
         
     }
     .bmi-table{
         width: 310px;
     }
-    .bmi-container p, h2{
-        text-align: start;
+    .bmi-container p{
+        text-align: left;
+    }
+    .bmi-container h2{
+        text-align: left;
     }
     .bmi-calculator{
         width: auto;
@@ -722,7 +709,6 @@ height: 249px;
         height: auto;
         width: 353px;
         grid-template-columns: repeat(1, 1fr);
-        /* margin-left: 20px; */
        margin: auto;
     }
     .team-image img{
@@ -745,16 +731,16 @@ height: 249px;
         margin-top: 20px;
     }
     .exprience-img img{
-        
+        padding-left: 30px;
         height: auto;
         width: 353px;
+        border-radius: 10px;
     }
    
     .footer-container{
         height: auto;
         width: auto;
         
-
     }
     .footer-content{
         align-items: normal;
