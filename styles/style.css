@@ -12,6 +12,7 @@ body{
 }
 
 
+
 /* shared style start here */
 .container{
     width: 90%;
@@ -682,7 +683,7 @@ height: 249px;
        
     }
     .bmi-calculator button{
-        margin: auto;
+        margin:30px auto;
     }
     
     .my-bmi-calculator input{
