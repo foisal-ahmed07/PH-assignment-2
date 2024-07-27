@@ -11,6 +11,7 @@ body{
     padding: 0;
 }
 
+
 /* shared style start here */
 .container{
     width: 90%;
@@ -54,8 +55,8 @@ height: 54px;
     margin-bottom: 5px;
 }
 
-
 /* shared style end here */
+
 /* header section style */
 header{
     width: 100%;
@@ -121,7 +122,7 @@ header{
     height: 580px;
     margin-right: 50px;
     position: relative;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .free-video{
     position: absolute;
@@ -168,13 +169,11 @@ header{
     height: 40px;
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
-    
-    
+       
 }
 .circle i{
     display: none;
 }
-
 
 .fitness-content h1{
 
@@ -207,7 +206,6 @@ header{
     
 }
 
-
 /*header content style end here */
 
 /* main section style */
@@ -221,7 +219,6 @@ header{
     justify-content: space-between;
     align-items: center;
    
-
 }
 .pratice-image img{
     
@@ -275,7 +272,6 @@ margin-left: 20px;
       
 }
 
-
 .bmi-content{
     background: rgb(34, 34, 34);
     
@@ -304,9 +300,7 @@ margin-left: 20px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: white;
     padding: 20px;
-    
-   
-    
+         
 }
 .bmi-table table{
     border-collapse: collapse;
@@ -354,7 +348,7 @@ margin-left: 20px;
 }
 
 .my-bmi-calculator{
-    width: 100%;
+    width: auto;
     height: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -379,16 +373,15 @@ height: 48px;
 
 }
 .factor select{
-    width: 100%;
+    width: 84%;
     margin-top: 50px;
     font-size: 1rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
-   
-height: 48px;
-margin-bottom: 20px;
-margin-left: 100px;
-}
+    color: rgba(255, 255, 255, 0.6); 
+    height: 48px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    }
 .bmi-calculator button{
     margin-left: 100px;
    
@@ -435,24 +428,24 @@ margin-left: 100px;
 .exprience-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 90%;
+    margin-top: 20px;
+    width: 100%;
 }
 .exprience-content h2{
     text-align: left;
+    padding-top: 10px;
 }
 .exprience-content p{
     text-align: left;
 }
 .exprience-content{
-    width: 500px;
+   max-width: 353px;
     height: auto;
-   
-    
+      
 }
 .exprience-img img{
-    margin-top: 100px;
-    width: 500px;
+    margin-top: 20px;
+    max-width: 500px;
     height: 300px;
     border-radius: 10px;
 }
@@ -644,9 +637,13 @@ height: 249px;
         height: 170px;
     }
  
-    .bmi-item, .content{
+    .bmi-item{
         height: auto;
         width: auto;
+    }
+    .content{
+        height: auto;
+        width:310px;
     }
     
     .bmi-h3{
@@ -654,10 +651,9 @@ height: 249px;
         font-size: 1.5rem;
     }
     .calculator-title{
-    width: 354px;
+    width: 310px;
     height: auto;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin: auto;
     
     }
     .bmi-container{
@@ -680,30 +676,30 @@ height: 249px;
     }
    
     .my-bmi-calculator{
-        width: 50%;
+        width:100%;
         height: auto; 
-        margin-left: 30px;    
+        margin:0;    
        
     }
     .bmi-calculator button{
-        margin-bottom: 20px;
+        margin: auto;
     }
     
     .my-bmi-calculator input{
         margin: 0 auto;
+        
     }
     
     .factor select{
-        margin-top: 10px;
-        margin-left:30px;
-        width: 80%;
+        margin:10px auto;
+        width: 100%;
         height: auto;
         
     }
     .my-bmi-calculator input, select{
         padding: 20px;
         height: 10px;
-        width: 170px;
+        width: 100%;
     }
     .team-image{
         height: auto;
@@ -716,24 +712,27 @@ height: 249px;
         height: 272px;
     }
     .exprience-content{
-        width: 400px;
+        width: 100%;
         height: auto;
-        margin: 0 auto;
+        margin: 10px auto;
         
     }
     .exprience-content h2{
-        width: 300px;
+        width: 100%;
         font-size: 2rem;
     }
     .exprience-content p{
-        width: 300px;
+        width: 100%;
         text-align: left;
         margin-top: 20px;
     }
+    .exprience-img{
+        margin: 10px 10px;
+
+    }
     .exprience-img img{
-        padding-left: 30px;
-        height: auto;
-        width: 353px;
+        height: 100%;
+        width: 100%;
         border-radius: 10px;
     }
    
@@ -760,6 +759,5 @@ height: 249px;
     .copy-right p{
         margin-bottom: 20px;
     }
-  
     
 }
